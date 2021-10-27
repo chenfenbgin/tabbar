@@ -1,0 +1,5 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+/* 单独这么写是不会生效的，webpack在打包的时候，是从main.js开始的，我们可以在mian.js中导入包，也可以在App.vue中 */
